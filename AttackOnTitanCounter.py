@@ -13,5 +13,6 @@ containers = page_soup.find("div", {"class":"full-script"})
 
 containers = containers.text
 
+count = containers.count("Titan")
 
 print("In This episode, they say the word 'Titan' " +  (str)(count) + " times.")
